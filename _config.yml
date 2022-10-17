@@ -44,7 +44,7 @@ content:
         title: Public policy evaluation
         sub_title: Causal Inference
         # link:
-        link_text: [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0967070X21002043)
+        # link_text: 
         description: | # this will include new lines to allow paragraphs
           - Quantifying the short-term and long-term impacts of the “stay-at-home” policy.
           - Data-driven approaches using regression discontinuity design and propensity score matching method.
