@@ -65,8 +65,8 @@ content:
         caption: 2019 - 2023
         sub_title: PhD in Transportation Engineering
         description: | # this will include new lines to allow paragraphs
-          GPA: 3.85.
-          Selecte Courses: Causal Inference, Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods, Forecasting Time Series Data, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven mobility modeling.
+          - GPA: 3.85.
+          - Selecte Courses: Causal Inference, Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods, Forecasting Time Series Data, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven mobility modeling.
 
   - title: Blogs
     layout: text
@@ -79,7 +79,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
