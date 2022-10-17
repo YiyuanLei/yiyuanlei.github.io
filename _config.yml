@@ -33,9 +33,9 @@ linkedin_username: yiyuanlei
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! I am a graduate research assistant at New York University. I obtained my Master degree's in Statistics and Civil Engineering from the University of Illinois at Urbana-Champaign. My research is about proactive traffic safety evaluation and management. 
+  Hello! I am a graduate research assistant at New York University. I obtained my Master's degree in Statistics and Civil Engineering from the University of Illinois at Urbana-Champaign. My research is about proactive traffic safety evaluation and management. 
   I am interested in <mark>Causal Inference</mark>, <mark>Statistical Learning</mark>, and <mark>Stochastic Process</mark>. 
-  Please see my [Google Scholar Profile](https://scholar.google.com/citations?user=-pXDUYYAAAAJ&hl=en&oi=ao) for my publications. And see my [Master's website](http://publish.illinois.edu/yiyuanlei/) for my past coursework.
+  Please see my [Google Scholar Profile](https://scholar.google.com/citations?user=-pXDUYYAAAAJ&hl=en&oi=ao) for my publications. My past coursework can be found [here](http://publish.illinois.edu/yiyuanlei/).
 content:
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
