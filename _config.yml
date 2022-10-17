@@ -41,14 +41,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-left
-        title: [Public policy evaluation using Causal Inference](https://www.sciencedirect.com/science/article/abs/pii/S0967070X21002043)
+        title: Public policy evaluation
         sub_title: Causal Inference
         # link:
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+  
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
