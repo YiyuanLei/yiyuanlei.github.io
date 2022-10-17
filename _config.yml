@@ -37,11 +37,11 @@ about_content: | # this will include new lines to allow paragraphs
   I am interested in <mark>Causal Inference</mark>, <mark>Statistical Learning</mark> and <mark>Stochastic Process</mark>. 
   Please see my [Google scholar profile](https://scholar.google.com/citations?user=-pXDUYYAAAAJ&hl=en&oi=ao) for my publications.
 content:
-  - title: Projects # Title for the section
+  - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-left
-        title: Research 
+        title: Public policy evaluation using Causal Inference 
         link: https://www.sciencedirect.com/science/article/abs/pii/S0967070X21002043
         # link_text: Project Website
         additional_links:
@@ -51,8 +51,7 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+   
         description: | # this will include new lines to allow paragraphs
           
   - title: Experience # Title for the section
