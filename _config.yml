@@ -39,6 +39,7 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
+    layout: top-left
     content:
       - layout: top-left
         title: Public policy evaluation
