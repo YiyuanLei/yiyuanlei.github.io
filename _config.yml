@@ -51,7 +51,10 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
    
         description: | # this will include new lines to allow paragraphs
-          
+          - Quantifying the short-term and long-term impacts of the “stay-at-home” policy.
+          - Data-driven approaches using regression discontinuity design and propensity score matching method.
+          - The bike-sharing system and yellow taxi system have different sensitivities to the policy.
+          - Policy implications are derived from the robust analyses.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
