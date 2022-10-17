@@ -39,7 +39,6 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
-    layout: top-left
     content:
       - layout: top-left
         title: Public policy evaluation
@@ -67,6 +66,13 @@ content:
         caption: 05/2022 - 08/2022
         description: | # this will include new lines to allow paragraphs
             Proactive retention strategies using machine learning models
+            - Initiated Uber membership churning behavior diagnostics and analysis using SQL and Python
+            - Proposed proactive retention strategies using machine learning models (e.g. lightGBM) to retain users.
+            - Designed a memory-based recursion algorithm to preprocess queried data for duration analysis.
+            - Applied Kaplan-Meier estimator and Cox PH model to identify the churning patterns by cohorts.
+            - Performed feature engineering, model selection to improve classification accuracy for 85% users.
+            - Collaborated with cross-functional (e.g. Product, Engineering) teams on deep dive analysis and debugging.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
