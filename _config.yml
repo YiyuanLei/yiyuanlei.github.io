@@ -37,7 +37,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am interested in <mark>Causal Inference</mark>, <mark>Statistical Learning</mark> and <mark>Stochastic Process</mark>. 
   Please see my [Google scholar profile](https://scholar.google.com/citations?user=-pXDUYYAAAAJ&hl=en&oi=ao) for my publications.
 content:
-  - title: Projects # Title for the section
+  - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -45,17 +45,14 @@ content:
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  A robust analysis of the impacts of the stay-at-home policy on taxi and Citi Bike usage: A case study of Manhattan
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            url: https://www.sciencedirect.com/science/article/abs/pii/S0967070X21002043
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          - Quantifying the short-term and long-term impacts of the "stay-at-home" policy
+          - Data-driven approaches using regression dicontinuity design and propensity score matching method
+          - The bike-sharing system and yellow taxi system have different sensitivies to the policy
+          - Policy implications are derived from the robust analyses.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
