@@ -93,15 +93,16 @@ content:
         description: |
            <br /> GPA: 3.86.
            <br /> Selecte Courses: Data Structure, Database Systems, Advaned Information Retreival, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.
-     - layout: left
-            title: Southwest Jiaotong University
-            caption: 2013 - 2016
-            sub_title: Bachelor's Degree in Civil Engineering
-            description: | 
-               <br /> GPA: 3.76.
-               <br /> Selecte Courses: Principles of Economics, C++ Programming
+      
+      - layout: left
+        title: Southwest Jiaotong University
+        caption: 2013 - 2016
+        sub_title: Bachelor's Degree in Civil Engineering
+        description: | 
+           <br /> GPA: 3.76.
+           <br /> Selecte Courses: Principles of Economics, C++ Programming
 
- - title: Blogs
+  - title: Blogs
     layout: text
     content: | # this will include new lines to allow paragraphs
       More to come
