@@ -46,11 +46,18 @@ content:
         # link:
         # link_text: 
         description: | # this will include new lines to allow paragraphs
-          Can we use <mark>observational data </mark> to infer the impacts of "stay-at-home" policy on transportation systems? [This study](https://www.sciencedirect.com/science/article/abs/pii/S0967070X21002043) aims to fill three research gaps in the literature. First, the naive estimators by comparing the historical average could not address the hidden biases of traffic demands; Secondly, the "immediate" impacts of the "stay-at-home" policy on transportation systems were unclear during different time periods. Third, the existed studies did not throughly discuss the sensitivities of uncontrolled covairates in the long-term policy impact inference. We used propensity score mathching (PSM) method and regression discontinuity design (RDD) to estimate counterfactuals consdiering the spatiotemporal heterogeneities and biases related to weather conditions. Some highlights of this study are: 
+          Can we use <mark>observational data</mark> to infer the impacts of "stay-at-home" policy on transportation systems? [This study](https://www.sciencedirect.com/science/article/abs/pii/S0967070X21002043) aims to fill three research gaps in the literature. First, the naive estimators by comparing the historical average could not address the hidden biases of traffic demands; Secondly, the "immediate" impacts of the "stay-at-home" policy on transportation systems were unclear during different time periods. Third, the existed studies did not throughly discuss the sensitivities of uncontrolled covairates in the long-term policy impact inference. We used propensity score mathching <mark>(PSM)</mark> method and regression discontinuity design <mark>(RDD)</mark> to estimate counterfactuals considering the spatiotemporal heterogeneities and biases related to weather conditions. Some highlights of this study are: 
           - Quantifying the short-term and long-term impacts of the “stay-at-home” policy.
           - Data-driven approaches using regression discontinuity design and propensity score matching method.
           - The bike-sharing system and yellow taxi system have different sensitivities to the policy.
           - Policy implications are derived from the robust analyses.
+      - layout: left
+        border: weak
+        title: Uncertainty Quantification
+        sub_title: Stochastic Process
+        description: |
+          Describe the projects
+    
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
