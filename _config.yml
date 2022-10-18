@@ -67,7 +67,7 @@ content:
         sub_title: Applied Scientist PhD Intern
         caption: 05/2022 - 08/2022
         description: | 
-            Incentive-based retention strategies such as promotion code and cash backs aims to improve user engagement. How can we target our users in a smarter way? How do we make decision considering the tradeoff between *precision* and *recall*, *fariness* and *profits*, *transparent* but not *misuse*? This project designed and proposed proactive retention strategies using machine learning models consideirng those tradeoffs mentioned earlier. Some highlights of this proejct are listed below
+            Incentive-based retention strategies such as promotion code and cash backs aims to improve user engagement. How can we target our users in a smarter way? How do we make decision considering the tradeoff between **precision** and **recall**, **fariness** and **profits**, **transparent** but not **misuse**? This project designed and proposed proactive retention strategies using machine learning models consideirng those tradeoffs mentioned earlier. Some highlights of this proejct are listed below
             - Initiated Uber membership churning behavior diagnostics and analysis using SQL and Python.
             - Proposed proactive retention strategies using machine learning models (e.g. lightGBM) to retain users.
             - Designed a memory-based recursion algorithm to preprocess queried data for duration analysis.
@@ -84,21 +84,21 @@ content:
         sub_title: PhD in Transportation Engineering
         description: | # this will include new lines to allow paragraphs
            <br /> GPA: 3.85.
-           <br /> Selecte Courses: *Causal Inference*, *Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods*, *Forecasting Time Series Data*, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven mobility modeling,
+           <br /> Selecte Courses: **Causal Inference**, **Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods**, **Forecasting Time Series Data**, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven mobility modeling,
       - layout: left
         title: University of Illinois at Urbana-Champaign
         caption: 2016 - 2019
         sub_title: Dual Master's Degrees in Applied Statistics and Civil Engineering
         description: |
            <br /> GPA: 3.86.
-           <br /> Selecte Courses: Data Structure, Database Systems, *Advaned Information Retreival*, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.      
+           <br /> Selecte Courses: Data Structure, Database Systems, **Advaned Information Retreival**, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.      
       - layout: left
         title: Southwest Jiaotong University
         caption: 2013 - 2016
         sub_title: Bachelor's Degree in Civil Engineering
         description: | 
            <br /> GPA: 3.76.
-           <br /> Selecte Courses: *Principles of Economics*, C++ Programming
+           <br /> Selecte Courses: **Principles of Economics**, C++ Programming
   - title: Blogs
     layout: text
     content: | # this will include new lines to allow paragraphs
