@@ -93,10 +93,10 @@ content:
         description: | 
            - GPA: 3.76.
            - Selecte Courses: Principles of Economics, C++ Programming
-  - title: Blogs
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      More to come
+  # - title: Blogs
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    More to come
       
 # Footer
 footer_show_references: true
