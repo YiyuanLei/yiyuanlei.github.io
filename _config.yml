@@ -59,7 +59,7 @@ content:
         sub_title: Applied Scientist PhD Intern
         caption: 05/2022 - 08/2022
         description: | 
-            Incentive-based retention strategies such as cash back mainly aim to increase engagement. How can we manage the retention strategies in a smarter way? How do we balance between **precision** and **recall**, **fariness** and **profits**, **transparency** but no **misuse**? This project designed and proposed proactive retention strategies using machine learning models consideirng those tradeoffs mentioned before. Some highlights of this proejct are listed below
+            Incentive-based strategies such as cash back mainly aim to increase retention. How can we manage the retention strategies in a smarter way? How do we balance between **precision** and **recall**, **fariness** and **profits**, **transparency** but no **misuse**? This project designed and proposed proactive retention strategies using machine learning models consideirng those tradeoffs mentioned before. Some highlights of this proejct are listed below
             - Initiated Uber membership churning behavior diagnostics and analysis using SQL and Python.
             - Proposed proactive retention strategies using machine learning models (e.g. lightGBM) to retain users.
             - Designed a memory-based recursion algorithm to preprocess queried data for duration analysis.
