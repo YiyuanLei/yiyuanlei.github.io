@@ -72,10 +72,10 @@ content:
     content:
       - layout: left
         title: New York University
-        caption: 2019 - current
-        sub_title: PhD in Transportation Engineering
+        caption: 2019 - Current
+        sub_title: Ph.D. in Transportation Engineering
         description: | # this will include new lines to allow paragraphs
-           - GPA: 3.85.
+           - GPA: 3.86.
            - Ph.D. Liaison at NYU Graduate Student Council.
            - Reviewer: Travel Behavior and Society, Transportation Research Record, Transportation Research Board.
            - Selected Courses: Causal Inference, Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods, Forecasting Time Series Data, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven Mobility Modeling.
@@ -85,7 +85,7 @@ content:
         sub_title: Dual Master's Degrees in Applied Statistics and Civil Engineering
         description: |
            - GPA: 3.86.
-           - Selected Courses: Data Structure, Database Systems, Adanced Information Retreival, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.      
+           - Selected Courses: Data Structure, Database Systems, Advanced Information Retreival, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.      
       - layout: left
         title: Southwest Jiaotong University
         caption: 2013 - 2016
