@@ -3,3 +3,16 @@
 ---
 
 @import "modern-resume-theme";
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-container img {
+  width: 100%; /* Adjust percentage as needed */
+  max-width: 725px;
+  height: auto;
+  object-fit: contain;
+}
