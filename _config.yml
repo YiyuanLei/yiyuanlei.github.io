@@ -1,14 +1,13 @@
 # Site
 repository: YiyuanLei/yiyuanlei.github.io
-# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Oliver Lei
-title: PhD Candidate at NYU
-email: yl6549@nyu.edu
+title: Equity Data Scientist at Point72
+email: yyloliver@gmail.com
 website: yiyuanlei.github.io
 
 # Dark Mode (true/false/never)
@@ -16,17 +15,16 @@ darkmode: false
 
 # Social links
 #twitter_username: Yiyuan Lei
-#github_username:  YiyuanLei
-# instagram_username: yiyuanlei
+github_username: YiyuanLei
+instagram_username: yiyuanlei
 linkedin_username: yiyuanlei
+googlescholar_username: -pXDUYYAAAAJ&hl
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! I am a graduate research assistant at New York University. I obtained my Master's degree in Statistics and Civil Engineering from the University of Illinois at Urbana-Champaign. My research is statistical models for data analytics. 
-  I am interested in <mark>Causal Inference</mark>, <mark>Statistical Learning</mark>, and <mark>Stochastic Process</mark>. 
-  Please see my [Google Scholar Profile](https://scholar.google.com/citations?user=-pXDUYYAAAAJ&hl=en&oi=ao) for my publications. My past coursework can be found [here](http://publish.illinois.edu/yiyuanlei/).
+  Hello! My name is Oliver Lei. I am a data scientist with a Ph.D. in Transportation Systems from NYU, and I specialize in leveraging advanced <mark>statistical models</mark> <mark>machine learning</mark> and <mark>causal inference</mark>. Currently, I work at Point72 Asset Management, where I design trend-driven statistical models, streamline data pipelines, and extract actionable insights for investment teams—achieving measurable impacts like reducing costs and improving efficiencies. I am proficient in tools like Python, SQL, and PySpark. I am passionate about transforming data into solutions and driving impactful business decisions.
 content:
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
@@ -35,7 +33,7 @@ content:
         title: Public policy evaluation
         sub_title: Causal Inference
         # link:
-        # link_text: 
+        # link_text:
         description: | # this will include new lines to allow paragraphs
           Can we infer the impacts of "stay-at-home" policy on transportation systems given **observational data**? This study filled three research gaps in the literature. First, the average mean estimators could be biased due to weather conditions, and shifted days of the week. Secondly, the "immediate" effects of the "stay-at-home" policy on transportation systems were unclear during different time periods. Third, the existed studies did not throughly discuss the sensitivities of uncontrolled covairates in the long-term policy impact inference. We used propensity score mathching **(PSM)** method and regression discontinuity design **(RDD)** to estimate counterfactuals considering the spatiotemporal heterogeneities and biases related to weather conditions. Some highlights of this study are: 
           - Quantifying the short-term and long-term impacts of the “stay-at-home” policy.
@@ -48,57 +46,78 @@ content:
         sub_title: Stochastic Process
         description: |
           Traditional traffic frequency models such as Negative Binomial, Poisson, and zero-inflated models study crash events at the aggregate level. One of the fundamental dilemmas is that associating aggregated covariates and discrete crash data without care can result in information loss. This study addressed this dilemma by proposing a Gaussian Process Modulated Renewal (GPMRP) Model. We studied 6 interstate sections from 2017 to 2020 using GPMRP. The empirical results show that the proposed model can capture the inhomogeneous crash intensities at the granular level. Moreover, one application of this model is to quantify the uncertainties during the pandemic. The inferred crash intensities were compared with counterfactual crash intensities restored by **machine learning** models. We observed unimodal, bimodal, and parabolic time-varying crash intensities in the chosen intersections, which showed insights of how crash hazards vary in a changing environment. This study shows that GPMRP model can be a useful tool for **safety analytics** at a granular level as the intelligent transportation system (ITS) tehcnologies collect emerging data sources at the time of crash. For details, please find the paper [here.](https://www.sciencedirect.com/science/article/pii/S0001457522001518)
-    
+      - layout: left
+        title: Statistical Inference
+        sub_title: Survival Analysis
+        description: |
+          Naturalistic driving data analysis offers insights into risky driving behaviors at the trajectory level, which are critical to traffic safety. However, few studies discuss the modeling challenges of vehicle interactions that are multi-state and recurrent. In addition, escalation and de-escalation transitions are two competing events by nature, requiring extra care in statistical modeling. We propose Markov renewal survival models along with cause-specific and cumulative incidence function approaches for such trajectory analysis. This study aims to quantify transition hazards and predict duration to assess the impact of off-ramps on driving behaviors at 2 highway segments in Germany. We use non-parametric, semi-parametric, and parametric estimations and select the best-fitted models based on the corrected Akaike Information Criterion (AICc). The results show that off-ramps significantly increase de-escalation durations by 27% during risky states, while vehicle types show statistically significant impacts on escalation transitions as well. Furthermore, we discuss the limitations of the cause-specific approach and recommend the use of the cumulative incidence function for predicting the marginal survival function in the presence of competing events. [here.](https://ieeexplore.ieee.org/document/10422499)
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Point72 Asset Management
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Data Scientist
+        caption: 08/2023 - Present
+        description: |
+          Drive quantitative research initiatives leveraging statistical modeling and machine learning to drive investment decisions in consumer sectors. Develop and maintain scalable analytics infrastructure delivering time-sensitive market insights through comprehensive data analysis
+      - layout: left
         title: Uber Tech Inc
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Applied Scientist PhD Intern
+        sub_title: Applied Scientist Ph.D. Intern
         caption: 05/2022 - 08/2022
-        description: | 
-            Incentive-based strategies such as cash back mainly aim to increase retention. How can we manage the retention strategies in a smarter way? How do we balance between **precision** and **recall**, **fariness** and **profits**, **transparency** but no **misuse**? This project designed and proposed proactive retention strategies using machine learning models consideirng those tradeoffs mentioned before. Some highlights of this proejct are listed below
-            - Initiated Uber membership churning behavior diagnostics and analysis using SQL and Python.
-            - Proposed proactive retention strategies using machine learning models (e.g. lightGBM) to retain users.
-            - Designed a memory-based recursion algorithm to preprocess queried data for duration analysis.
-            - Applied Kaplan-Meier estimator and Cox PH model to identify the churning patterns by cohorts.
-            - Performed feature engineering, model selection to improve classification accuracy for 85% users.
-            - Collaborated with cross-functional (e.g. Product, Engineering) teams on deep dive analysis and debugging.
+        description: |
+          Incentive-based strategies such as cash back mainly aim to increase retention. How can we manage the retention strategies in a smarter way? How do we balance between precision and recall, fariness and profits, transparency but no misuse? This project designed and proposed proactive retention strategies using machine learning models consideirng those tradeoffs mentioned before.
+
+      - layout: left
+        title: John Deere
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Data Analyst
+        caption: 01/2019 - 05/2019
+        description: |
+          I developed and implemented automated data analysis tools using MATLAB, significantly improving the stability and efficiency of data collection processes. I also applied statistical inference techniques, including confidence interval analysis, to evaluate and benchmark the performance of various truck models, delivering valuable insights for product developments
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: New York University
-        caption: 2019 - Current
+        caption: 2019 Sept. - 2023 Dec.
         sub_title: Ph.D. in Transportation Engineering
         description: | # this will include new lines to allow paragraphs
-           - GPA: 3.86.
-           - Ph.D. Liaison at NYU Graduate Student Council.
-           - Reviewer: Travel Behavior and Society, Transportation Research Record, Transportation Research Board.
-           - Selected Courses: Causal Inference, Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods, Forecasting Time Series Data, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven Mobility Modeling.
+          - Ph.D. Liaison at NYU Graduate Student Council.
+          - Reviewer: Travel Behavior and Society, Transportation Research Record, Transportation Research Board.
+          - Selected Courses: Causal Inference, Adv Topics in Numerical Analysis: Monte Carlo Sampling Methods, Forecasting Time Series Data, Advanced Mache Learning, Adv Topics in Survival Analysis, System Optimization Method, Stochastic Models and Methods, Data-driven Mobility Modeling.
       - layout: left
         title: University of Illinois at Urbana-Champaign
-        caption: 2016 - 2019
+        caption: 2016 Sept. - 2019 May.
         sub_title: Dual Master's Degrees in Applied Statistics and Civil Engineering
         description: |
-           - GPA: 3.86.
-           - Selected Courses: Data Structure, Database Systems, Advanced Information Retreival, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.      
+          - Selected Courses: Data Structure, Database Systems, Advanced Information Retreival, Sampling and Categorical Data, Applied Regression Analysis, Finite Element Analysis, Reliability Analysis, Machine Learning, Statistics and Probability.
       - layout: left
         title: Southwest Jiaotong University
-        caption: 2013 - 2016
+        caption: 2013 Sept. - 2016 May.
         sub_title: Bachelor's Degree in Civil Engineering
-        description: | 
-           - GPA: 3.76.
-           - Selected Courses: Principles of Economics, C++ Programming
-           - Academic Excellence of Southwest Jiaotong University (top 1%)
+        description: |
+
+          - Selected Courses: Principles of Economics, C++ Programming
+          - Academic Excellence of Southwest Jiaotong University (top 1%)
   # - title: Blogs
   #  layout: text
   #  content: | # this will include new lines to allow paragraphs
   #    More to come
-      
+  - title: Fun Facts
+    layout: text
+
+    content: | # this will include new lines to allow paragraphs
+      I have two cats, Ginger and Pepper, who are curious adventurers!
+
+      ![ginger](images/ginger.jpg){:height="500px" width="720px"}| ![pepper](images/pepper.jpg){:height="500px" width="720px"}
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
@@ -111,4 +130,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

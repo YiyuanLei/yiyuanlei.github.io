@@ -6,4 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: default
+additional_images:
+  - images/ginger.jpg
 ---
